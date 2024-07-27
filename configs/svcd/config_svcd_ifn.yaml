@@ -1,0 +1,23 @@
+# SVCD+DSIFN
+
+lr: 0.0001
+schedulers:
+  - name: ReduceLROnPlateau
+    mode: max
+    factor: 0.1
+    patience: 5
+mu:
+  - 123.675
+  - 116.28
+  - 103.53
+sigma:
+  - 58.395
+  - 57.12
+  - 57.375
+out_dir: ifn
+criterion: WBCE+Dice
+model: IFN
+out_type: logits
+
+mix_coeffs: 1.0
+cmb_coeffs: 1.0
