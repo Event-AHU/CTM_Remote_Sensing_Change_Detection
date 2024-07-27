@@ -1,0 +1,70 @@
+
+Log into ../exp/whu/logs/train-2024-07-12-12-14-08.log
+
+
+anew: False
+batch_size: 8
+cmb_coeffs: 
+ - 1.0
+ - 0.4
+cmd: train
+criterion: WBCE
+crop_size: 256
+dataset: WHU
+debug_on: False
+device: cuda
+exp_config: ../configs/whu/config_whu_p2v.yaml
+exp_dir: ../exp/
+inherit_off: False
+load_optim: False
+log_off: False
+lr: 0.0004
+model: P2V
+mu: 
+ - 0.0
+num_epochs: 30
+num_workers: 4
+optimizer: Adam
+out_dir: p2v
+out_type: logits
+p2v_model: 
+ in_ch: 3
+ video_len: 8
+repeats: 7
+resume: ../exp/whu/weights/checkpoint_latest_p2v.pth
+save_on: False
+save_optim: False
+sched_on: True
+schedulers: 
+ - 
+  gamma: 0.2
+  name: StepLR
+  step_size: 15
+sigma: 
+ - 255.0
+subset: val
+suffix: p2v
+suffix_off: True
+tag: whu
+tb_intvl: 500
+tb_on: False
+tb_vis_bands: 
+ - 0
+ - 1
+ - 2
+tb_vis_norm: 8bit
+track_intvl: 10
+weight_decay: 0.0
+weights: 
+ - 0.5
+ - 0.5
+
+Write some notes: Traceback (most recent call last):
+  File "train.py", line 59, in main
+    trainer.run()
+  File "/home/wangzitian/work2/src/core/trainer.py", line 74, in run
+    self._write_prompt()
+  File "/home/wangzitian/work2/src/core/trainer.py", line 69, in _write_prompt
+    self.logger.dump(input("\nWrite some notes: "))
+OSError: [Errno 9] Bad file descriptor
+
