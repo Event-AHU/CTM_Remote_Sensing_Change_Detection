@@ -11,7 +11,7 @@ scipy 1.7.3
 matplotlib  3.5.3
 ```
 ## Train
-You can find the training script train.py. You can run the script file by python train.py in the command environment.
+You can find the training script >train.py. You can run the script file by python >train.py in the command environment.
 
 You can train on the svcd train set with the following command:
 ```
