@@ -5,7 +5,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/Event-AHU/CTM_Remote_Sensing_Change_Detection/blob/main/figure/framework.jpg" alt="framework" width="600"/>
+  <img src="https://github.com/Event-AHU/CTM_Remote_Sensing_Change_Detection/blob/main/figure/framework.jpg" alt="framework" width="700"/>
 </p>
 
 
@@ -43,15 +43,15 @@ The same goes for the other datasets.
 ## Experiments 
 
 <p align="center">
-  <img src="https://github.com/Event-AHU/CTM_Remote_Sensing_Change_Detection/blob/main/figure/Feat_VIS1.jpg" alt="framework" width="600"/>
+  <img src="https://github.com/Event-AHU/CTM_Remote_Sensing_Change_Detection/blob/main/figure/Feat_VIS1.jpg" alt="framework" width="700"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/Event-AHU/CTM_Remote_Sensing_Change_Detection/blob/main/figure/Feat_VIS3.jpg" alt="framework" width="600"/>
+  <img src="https://github.com/Event-AHU/CTM_Remote_Sensing_Change_Detection/blob/main/figure/Feat_VIS3.jpg" alt="framework" width="700"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/Event-AHU/CTM_Remote_Sensing_Change_Detection/blob/main/figure/benchmark.jpeg" alt="framework" width="800"/>
+  <img src="https://github.com/Event-AHU/CTM_Remote_Sensing_Change_Detection/blob/main/figure/benchmark.jpeg" alt="framework" width="850"/>
 </p>
 
 
