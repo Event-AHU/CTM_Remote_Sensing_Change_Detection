@@ -51,7 +51,7 @@ The same goes for the other datasets.
 </p>
 
 <p align="center">
-  <img src="https://github.com/Event-AHU/CTM_Remote_Sensing_Change_Detection/blob/main/figure/benchmark.jpeg" alt="framework" width="600"/>
+  <img src="https://github.com/Event-AHU/CTM_Remote_Sensing_Change_Detection/blob/main/figure/benchmark.jpeg" alt="framework" width="800"/>
 </p>
 
 
