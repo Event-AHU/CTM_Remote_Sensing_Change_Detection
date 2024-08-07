@@ -11,5 +11,11 @@ scipy 1.7.3
 matplotlib  3.5.3
 ```
 ## Train
+You can find the training script train.py. You can run the script file by python train.py in the command environment.
 
+You can train on the svcd training set with the following command:
+```
+python -W ignore train.py train --exp_config ../configs/svcd/config_svcd_p2v.yaml --resume ../exp/svcd/weights/checkpoint_latest_p2v.pth
+```
+The same goes for the other datasets.
 ## Evaluate
