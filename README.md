@@ -4,6 +4,9 @@
 
 
 
+## Abstract 
+Current works focus on addressing the remote sensing change detection task using bi-temporal images. Although good performance can be achieved, however, seldom of they consider the motion cues which may also be vital. In this work, we revisit the widely adopted bi-temporal images-based framework and propose a novel Coarse-grained Temporal Mining Augmented (CTMA) framework. To be specific, given the bi-temporal images, we first transform them into a video using interpolation operations. Then, a set of temporal encoders is adopted to extract the motion features from the obtained video for coarse-grained changed region prediction. We also extract the motion features as an additional output to aggregate with the spatial features. Meanwhile, we feed the input image pairs into the ResNet to get the different features and also the spatial blocks for fine-grained feature learning. More importantly, we segment the coarse-grained changed regions and integrate them into the decoder blocks for final changed prediction. Extensive experiments conducted on multiple benchmark datasets fully validated the effectiveness of our proposed framework for remote sensing image change detection. 
+
 <p align="center">
   <img src="https://github.com/Event-AHU/CTM_Remote_Sensing_Change_Detection/blob/main/figure/framework.jpg" alt="framework" width="700"/>
 </p>
