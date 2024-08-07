@@ -56,7 +56,23 @@ The same goes for the other datasets.
 
 
 
+## License
+Code is released for **non-commercial** and **research purposes only**. For commercial purposes, please contact the authors.
 
 
+
+## Citation
+If you use this code for your research, please cite our paper:
+
+```
+@article{wang2024CTM,
+  title={Treat Stillness with Movement: Remote Sensing Change Detection via Coarse-grained Temporal Foregrounds Mining},
+  author={Xixi Wang, Zitian Wang, Jingtao Jiang, Lan Chen, Xiao Wang, and Bo Jiang},
+  journal={},
+  year={2024}
+}
+```
+
+If you have any issues with this work, feel free to leave an issue for discussion. 
 
 
