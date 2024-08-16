@@ -1,6 +1,6 @@
 # CTM_RSCD
 **Treat Stillness with Movement: Remote Sensing Change Detection via Coarse-grained Temporal Foregrounds Mining**, Zitian Wang†, Xixi Wang†, Jingtao Jiang, Lan Chen*, Xiao Wang, and Bo Jiang 
-[[PDF]()]
+[[arXiv](https://arxiv.org/abs/2408.08078)]
 
 
 
@@ -71,7 +71,7 @@ If you use this code for your research, please cite our paper:
 @article{wang2024CTM,
   title={Treat Stillness with Movement: Remote Sensing Change Detection via Coarse-grained Temporal Foregrounds Mining},
   author={Zitian Wang, Xixi Wang, Jingtao Jiang, Lan Chen, Xiao Wang, and Bo Jiang},
-  journal={},
+  journal={https://arxiv.org/abs/2408.08078},
   year={2024}
 }
 ```
